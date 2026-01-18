@@ -95,12 +95,14 @@ footer h3{color:var(--gold);margin-bottom:.5rem;}
 <!-- Branches & Maps -->
 <div class="contact-card">
 <h3>Our Branches</h3>
-<label for="branchSelect">Select Branch:</label>
-<select id="branchSelect">
+<label for="branch">Select Branch</label>
+<select id="branch" name="branch" required>
 <option value="">--Choose Branch--</option>
-<option value="Machang Branch">Machang Branch</option>
-<option value="Tanah Merah Branch">Tanah Merah Branch</option>
+<option value="Machang">Machang</option>
+<option value="Tanah Merah">Tanah Merah</option>
 </select>
+</select>
+
 <a class="btn" href="tel:+601151641339">Call Us</a>
 <a class="btn" href="https://wa.me/601151641339" target="_blank">WhatsApp</a>
 </div>
@@ -161,5 +163,6 @@ select.addEventListener('change', ()=>{
     
 </body>
 </html>
+
 
 
